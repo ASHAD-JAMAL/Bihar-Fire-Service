@@ -19,7 +19,7 @@ function Head() {
         {/* Centered Text */}
         <div className="flex-1 text-center px-4 lg:px-8 lg:mx-0 mx-10">
           <h1 className="text-2xl lg:text-3xl text-black">
-            बिहार अग्निशमन सेवा (Bihar Fire Service), <br />
+            बिहार अग्निशमन सेवा <br /> (Bihar Fire Service), <br />
             Govt.of Bihar
           </h1>
         </div>
