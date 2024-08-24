@@ -1,6 +1,6 @@
 import React from "react";
 import { Typography } from "@material-tailwind/react";
-import footerHand from "../assets/footer-hand.png";
+import footerHand from "../assets/biharphone.jpeg";
 import {
   FaFacebookF,
   FaInstagram,
@@ -16,8 +16,8 @@ function FooterWithLogo() {
   return (
     <footer className="w-full bg-[#35393a] py-8">
       <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row items-center justify-between text-center md:text-left">
-        <div className="flex items-center md:items-start">
-          <img src={footerHand} className="w-50 mb-4" alt="Footer Hand" />
+        <div className="flex items-center md:items-start bg-[#35393a]">
+          <img src={footerHand} className="w-40 mb-4" alt="Footer Hand" />
         </div>
         <div className="flex flex-col items-center md:items-start text-white mb-4">
           <Typography variant="h6" className="mb-4">
