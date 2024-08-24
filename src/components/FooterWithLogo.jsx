@@ -23,13 +23,13 @@ function FooterWithLogo() {
           <Typography variant="h6" className="mb-4">
             Contact Us
           </Typography>
-          <div className="flex items-center mb-2 group">
+          <div className="flex text-center items-center mb-2 group">
             <FaPhoneAlt className="mr-2 w-10 h-10 rounded-full text-[#ca4445] bg-[#35393a] p-2 group-hover:bg-[#ca4445] group-hover:text-white  duration-300 cursor-pointer" />
             <Typography as="a" href="tel:+123456789" className="text-white">
               +1 234 567 89
             </Typography>
           </div>
-          <div className="flex items-center mb-2 group">
+          <div className="flex text-center items-center mb-2 group">
             <FaEnvelope className="mr-2 w-10 h-10 rounded-full text-[#ca4445] bg-[#35393a] p-2 group-hover:bg-[#ca4445] group-hover:text-white  duration-300 cursor-pointer" />
             <Typography
               as="a"
@@ -39,7 +39,7 @@ function FooterWithLogo() {
               info@example.com
             </Typography>
           </div>
-          <div className="flex items-center mb-2 group">
+          <div className="flex text-center items-center mb-2 group">
             <FaMapMarkerAlt className="mr-2 w-10 h-10 rounded-full text-[#ca4445] bg-[#35393a] p-2 group-hover:bg-[#ca4445] group-hover:text-white duration-300 cursor-pointer" />
             <Typography className="text-white">
               1234 Street Name, City, Country

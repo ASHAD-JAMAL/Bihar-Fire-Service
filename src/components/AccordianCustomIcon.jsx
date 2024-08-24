@@ -2,7 +2,7 @@ import React from "react";
 import {
   Accordion,
   AccordionHeader,
-  AccordionBody,
+  AccordionBody ,
 } from "@material-tailwind/react";
 
 function Icon({ id, open }) {
@@ -36,80 +36,80 @@ export function AccordionCustomIcon() {
       <Accordion
         open={open === 1}
         icon={<Icon id={1} open={open} />}
-        className="bg-[#efe6e1] px-4 p-2 rounded-xl"
+        className="bg-[#efe6e1] p-2 rounded-xl"
       >
         <AccordionHeader
           onClick={() => handleOpen(1)}
-          className="border-b-0" // Removes the bottom border
+          className="border-b-0 px-1 text-lg" // Removes the bottom border
         >
           What services does the Fire Department provide?
         </AccordionHeader>
-        <AccordionBody>
+        <AccordionBody className="px-2">
           We&apos;re not always in the position that we want to be at.
           We&apos;re constantly growing. We&apos;re constantly making mistakes.
           We&apos;re constantly trying to express ourselves and actualize our
           dreams.
-        </AccordionBody>
+        </AccordionBody >
       </Accordion>
       <Accordion
         open={open === 2}
         icon={<Icon id={2} open={open} />}
-        className="bg-[#efe6e1] px-4 my-3 p-2 rounded-xl"
+        className="bg-[#efe6e1] my-3 p-2 rounded-xl"
       >
-        <AccordionHeader onClick={() => handleOpen(2)} className="border-b-0">
+        <AccordionHeader onClick={() => handleOpen(2)} className="border-b-0  px-1 text-lg ">
           How do I report a fire or emergency?
         </AccordionHeader>
-        <AccordionBody>
+        <AccordionBody className="px-2">
           We&apos;re not always in the position that we want to be at.
           We&apos;re constantly growing. We&apos;re constantly making mistakes.
           We&apos;re constantly trying to express ourselves and actualize our
           dreams.
-        </AccordionBody>
+        </AccordionBody >
       </Accordion>
       <Accordion
         open={open === 3}
         icon={<Icon id={3} open={open} />}
-        className="bg-[#efe6e1] px-4 p-2 rounded-xl"
+        className="bg-[#efe6e1] p-2 rounded-xl"
       >
-        <AccordionHeader onClick={() => handleOpen(3)} className="border-b-0">
+        <AccordionHeader onClick={() => handleOpen(3)} className="border-b-0 px-1 text-lg">
           Can I request a fire safety inspection for my property?
         </AccordionHeader>
-        <AccordionBody>
+        <AccordionBody className="px-2">
           We&apos;re not always in the position that we want to be at.
           We&apos;re constantly growing. We&apos;re constantly making mistakes.
           We&apos;re constantly trying to express ourselves and actualize our
           dreams.
-        </AccordionBody>
+        </AccordionBody >
       </Accordion>
       <Accordion
         open={open === 4}
         icon={<Icon id={4} open={open} />}
-        className="bg-[#efe6e1] my-3 px-4  p-2 rounded-xl"
+        className="bg-[#efe6e1] my-3 p-2 rounded-xl"
       >
-        <AccordionHeader onClick={() => handleOpen(4)} className="border-b-0">
+        <AccordionHeader onClick={() => handleOpen(4)} className="border-b-0 px-1 text-lg ">
           How can I obtain a copy of a fire incident report?
         </AccordionHeader>
-        <AccordionBody>
+        <AccordionBody className="px-2">
           We&apos;re not always in the position that we want to be at.
           We&apos;re constantly growing. We&apos;re constantly making mistakes.
           We&apos;re constantly trying to express ourselves and actualize our
           dreams.
-        </AccordionBody>
+        </AccordionBody >
       </Accordion>
       <Accordion
         open={open === 5}
         icon={<Icon id={5} open={open} />}
-        className="bg-[#efe6e1] p-2 px-4 rounded-xl"
+        className="bg-[#efe6e1] p-2 rounded-xl"
       >
-        <AccordionHeader onClick={() => handleOpen(5)} className="border-b-0">
+        <AccordionHeader onClick={() => handleOpen(5)} className="border-b-0 px-1 text-lg">
           What type of training do firefighters undergo?
         </AccordionHeader>
-        <AccordionBody>
+        <AccordionBody className="px-2">
           We&apos;re not always in the position that we want to be at.
           We&apos;re constantly growing. We&apos;re constantly making mistakes.
           We&apos;re constantly trying to express ourselves and actualize our
           dreams.
-        </AccordionBody>
+        </AccordionBody >
       </Accordion>
     </>
   );
